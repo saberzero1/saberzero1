@@ -4,6 +4,8 @@
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=saberzero1&theme=gruvbox)](https://git.io/streak-stats)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=saberzero1.saberzero1)
 
 <!--
