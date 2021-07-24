@@ -6,7 +6,9 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=saberzero1.saberzero1)
+[![trophy](https://github-profile-trophy.vercel.app/?username=saberzero1&theme=gruvbox)](https://github.com/ryo-ma/github-profile-trophy)
+
+<!--![visitors](https://visitor-badge.glitch.me/badge?page_id=saberzero1.saberzero1&&style=flat-square)-->
 
 <!--
 **saberzero1/saberzero1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
