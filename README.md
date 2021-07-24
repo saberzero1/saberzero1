@@ -1,4 +1,4 @@
-### Hi there 👋
+<!-- ### Hi there 👋 -->
 
 ![saberzero1's GitHub stats](https://github-readme-stats.vercel.app/api?username=saberzero1&show_icons=true&theme=gruvbox&count_private=true&include_all_commits=true)
 
