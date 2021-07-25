@@ -1,5 +1,28 @@
 <!-- ### Hi there 👋 -->
 
+
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+class ComputerScienceStudent:
+
+    def __init__(self):
+        self.name = "Emile Bangma"
+        self.role = "Undergraduate Computer Science at Utrecht University"
+        self.language_spoken = ["nl_NL", "en_US"]
+        self.coding_language = ["Csharp", "Python", "JavaScript"]
+        self.tools = ["Docker", "Git"]
+
+    def greet(self):
+        print("Thanks for stopping by, I hope you find some of my work interesting.")
+
+
+me = ComputerScienceStudent()
+me.greet()
+```
+
 ![saberzero1's GitHub stats](https://github-readme-stats.vercel.app/api?username=saberzero1&show_icons=true&theme=gruvbox&count_private=true&include_all_commits=true)
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=saberzero1&theme=gruvbox)](https://git.io/streak-stats)
