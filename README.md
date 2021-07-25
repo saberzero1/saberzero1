@@ -33,6 +33,8 @@ me.greet()
 
 [![Visits Badge](https://badges.pufler.dev/visits/saberzero1/saberzero1?style=for-the-badge)](https://badges.pufler.dev) [![Years Badge](https://badges.pufler.dev/years/saberzero1?style=for-the-badge)](https://badges.pufler.dev) [![Repos Badge](https://badges.pufler.dev/repos/saberzero1?style=for-the-badge)](https://badges.pufler.dev)
 
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](http://ForTheBadge.com) [![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com)
+
 <!--[![Commits Badge](https://badges.pufler.dev/commits/all/saberzero1?style=for-the-badge)](https://badges.pufler.dev)-->
 
 <!--![visitors](https://visitor-badge.glitch.me/badge?page_id=saberzero1.saberzero1&&style=flat-square)-->
