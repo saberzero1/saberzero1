@@ -12,7 +12,7 @@ class ComputerScienceStudent:
         self.name = "Emile Bangma"
         self.role = "Undergraduate Computer Science at Utrecht University"
         self.language_spoken = ["nl_NL", "en_US"]
-        self.coding_language = ["Csharp", "Python", "JavaScript"]
+        self.language_coding = ["Csharp", "Python", "JavaScript"]
         self.tools = ["Docker", "Git"]
 
     def greet(self):
