@@ -14,6 +14,7 @@ class ComputerScienceStudent:
         self.language_spoken = ["nl_NL", "en_US"]
         self.language_coding = ["Csharp", "Python", "JavaScript"]
         self.tools = ["Docker", "Git"]
+        self.editors = ["VS Code", "PyCharm", "Visual Studio"]
 
     def greet(self):
         print("Thanks for stopping by, I hope you find some of my work interesting.")
