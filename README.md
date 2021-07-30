@@ -30,7 +30,7 @@ class ComputerScienceStudent:
 me = ComputerScienceStudent()
 me.greet()
 ```-->
-<h2 align="center">Stats</h2>
+<h2 align="center">GitHub Stats</h2>
 <p align="center">
   <TABLE border='none' cellspacing="0" cellpadding="0">
     <TR>
