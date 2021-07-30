@@ -86,5 +86,6 @@ me.greet()
 <p align="center">
   <a href="http://ForTheBadge.com"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"></a>
   <a href="http://ForTheBadge.com"><img src="http://ForTheBadge.com/images/badges/makes-people-smile.svg"></a>
+  <a href="http://ForTheBadge.com"><img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg"></a>
 </p>
 <!-- <a href=""><img src=""></a> -->
