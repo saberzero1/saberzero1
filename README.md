@@ -45,8 +45,8 @@ me.greet()
       </tr>
     </table>
     <div align="center">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=saberzero1&repo=world-religion-data-visualization&theme=gruvbox">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=UU-tracktech&repo=tracktech&theme=gruvbox">
+      <a href="https://github.com/saberzero1/world-religion-data-visualization"><img src="https://github-readme-stats.vercel.app/api/pin/?username=saberzero1&repo=world-religion-data-visualization&theme=gruvbox"></a>
+      <a href="https://github.com/UU-tracktech/tracktech"><img src="https://github-readme-stats.vercel.app/api/pin/?username=UU-tracktech&repo=tracktech&theme=gruvbox"></a>
     </div>
 </p>
 <p align="center">
