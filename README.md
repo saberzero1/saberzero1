@@ -1,8 +1,8 @@
-<h1 align='center'>
+<h1 align="center">
   Hi there 👋 I'm Emile 👨‍💻
 </h1>
 
-<p align='center'>
+<p align="center">
   Computer Science student at Utrecht University.
 </p>
 
@@ -27,12 +27,19 @@ class ComputerScienceStudent:
 
 me = ComputerScienceStudent()
 me.greet()
-```-->
+```
+
+    <div align="center">
+      <a href="https://github.com/saberzero1/world-religion-data-visualization"><img src="https://github-readme-stats.vercel.app/api/pin/?username=saberzero1&repo=world-religion-data-visualization&theme=gruvbox"></a>
+      <a href="https://github.com/UU-tracktech/tracktech"><img src="https://github-readme-stats.vercel.app/api/pin/?username=UU-tracktech&repo=tracktech&theme=gruvbox"></a>
+    </div>
+
+-->
 
 <h2 align="center">GitHub Stats</h2>
 
 <p align="center">
-    <TABLE align="center" "style="width:100%" border='none' cellspacing="0" cellpadding="0">
+    <TABLE align="center" "style=width:100%" border='none' cellspacing="0" cellpadding="0">
       <TR>
         <TD colspan="3"><img width="100%" src="https://github-readme-stats.vercel.app/api?username=saberzero1&show_icons=true&theme=gruvbox&count_private=true&include_all_commits=true"></td>
         <TD rowspan="3"><img style="height:100%" src="https://github-profile-trophy.vercel.app/?username=saberzero1&theme=gruvbox&row=15&column=1"></td>
@@ -44,11 +51,6 @@ me.greet()
         <TD colspan="3"><img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&langs_count=10&layout=compact"></td>
       </tr>
     </table>
-    
-    <!--<div align="center">
-      <a href="https://github.com/saberzero1/world-religion-data-visualization"><img src="https://github-readme-stats.vercel.app/api/pin/?username=saberzero1&repo=world-religion-data-visualization&theme=gruvbox"></a>
-      <a href="https://github.com/UU-tracktech/tracktech"><img src="https://github-readme-stats.vercel.app/api/pin/?username=UU-tracktech&repo=tracktech&theme=gruvbox"></a>
-    </div>-->
 </p>
 
 <p align="center">
