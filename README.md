@@ -1,5 +1,3 @@
-<!-- ### Hi there 👋 -->
-
 <h1 align='center'>
   Hi there 👋 I'm Emile 👨‍💻
 </h1>
@@ -30,6 +28,7 @@ class ComputerScienceStudent:
 me = ComputerScienceStudent()
 me.greet()
 ```-->
+
 <h2 align="center">GitHub Stats</h2>
 <p align="center">
     <TABLE align="center" "style="width:100%" border='none' cellspacing="0" cellpadding="0">
