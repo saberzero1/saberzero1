@@ -39,18 +39,10 @@ me.greet()
 <h2 align="center">GitHub Stats</h2>
 
 <p align="center">
-    <TABLE align="center" "style=width:100%" border='none' cellspacing="0" cellpadding="0">
-      <TR>
-        <TD colspan="3"><img width="100%" src="https://github-readme-stats.vercel.app/api?username=saberzero1&show_icons=true&theme=gruvbox&count_private=true&include_all_commits=true"></td>
-        <TD rowspan="3"><img style="height:100%" src="https://github-profile-trophy.vercel.app/?username=saberzero1&theme=gruvbox&row=15&column=1"></td>
-      </tr>
-      <TR>
-        <TD colspan="3"><img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=saberzero1&theme=gruvbox"></td>
-      </tr>
-      <TR>
-        <TD colspan="3"><img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&langs_count=10&layout=compact"></td>
-      </tr>
-    </table>
+    <img src="https://github-readme-stats.vercel.app/api?username=saberzero1&show_icons=true&theme=gruvbox&count_private=true&include_all_commits=true">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=saberzero1&theme=gruvbox">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&langs_count=10&layout=compact">
+    <img src="https://github-profile-trophy.vercel.app/?username=saberzero1&theme=gruvbox&row=2&column=3">
 </p>
 
 <p align="center">
