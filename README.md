@@ -39,10 +39,10 @@ me.greet()
 <h2 align="center">GitHub Stats</h2>
 
 <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=saberzero1&show_icons=true&theme=gruvbox&count_private=true&include_all_commits=true">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=saberzero1&theme=gruvbox">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&langs_count=10&layout=compact">
-    <img src="https://github-profile-trophy.vercel.app/?username=saberzero1&theme=gruvbox&row=2&column=3">
+    <img src="https://github-readme-stats.vercel.app/api?username=saberzero1&show_icons=true&theme=gruvbox&count_private=true&include_all_commits=true"><br/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=saberzero1&theme=gruvbox"><br/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&langs_count=10&layout=compact"><br/>
+    <img src="https://github-profile-trophy.vercel.app/?username=saberzero1&theme=gruvbox&row=2&column=3"><br/>
 </p>
 
 <p align="center">
