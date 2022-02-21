@@ -41,7 +41,7 @@ me.greet()
 <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=saberzero1&show_icons=true&theme=gruvbox&count_private=true&include_all_commits=true"><br/>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=saberzero1&theme=gruvbox"><br/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&langs_count=10&layout=compact"><br/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&langs_count=10&layout=compact&hide=jupyter%20notebook"><br/>
     <img src="https://github-profile-trophy.vercel.app/?username=saberzero1&theme=gruvbox&row=2&column=3"><br/>
 </p>
 
