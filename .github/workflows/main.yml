@@ -49,17 +49,21 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_habits: yes
-          plugin_habits_facts: no
+          plugin_habits_facts: yes
           plugin_habits_charts: yes
           config_timezone: Europe/Amsterdam
-      - name: Midly interesting facts
+      - name: Lines of code changed
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.habits.facts.svg
+          filename: metrics.plugin.lines.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
-          config_timezone: Europe/Amsterdam
-
+          base: repositories
+          plugin_lines: yes
+      - name: Detailed display
+        uses: lowlighter/metrics@latest
+        with:
+         filename: metrics.plugin.achievements.svg
+         token: ${{ secrets.METRICS_TOKEN }}
+         base: ""
+         plugin_achievements: yes
+         plugin_achievements_threshold: X
