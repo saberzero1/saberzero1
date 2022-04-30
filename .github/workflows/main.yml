@@ -5,7 +5,7 @@ on:
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}.METRICS_TOKEN
+  push: {branches: ["master", "main"]}
 jobs:
   metrics:
     runs-on: ubuntu-latest
@@ -16,7 +16,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: medias.svg
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           config_order: anilist, music
           output_action: gist
@@ -35,7 +35,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: achievements.svg
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
@@ -48,7 +48,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: sponsors.svg
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
@@ -60,7 +60,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: general.svg
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header
           config_order: base.header, isocalendar, languages, notable, discussions, topics
           output_action: gist
