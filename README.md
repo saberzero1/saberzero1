@@ -34,7 +34,7 @@ me.greet()
       <a href="https://github.com/UU-tracktech/tracktech"><img src="https://github-readme-stats.vercel.app/api/pin/?username=UU-tracktech&repo=tracktech&theme=gruvbox"></a>
     </div>
 
--->
+>
 
 <h2 align="center">GitHub Stats</h2>
 
@@ -43,6 +43,10 @@ me.greet()
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=saberzero1&theme=gruvbox"><br/>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saberzero1&theme=gruvbox&langs_count=10&layout=compact&hide=jupyter%20notebook"><br/>
     <img src="https://github-profile-trophy.vercel.app/?username=saberzero1&theme=gruvbox&row=2&column=3"><br/>
+</p-->
+
+<p>
+    <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/general.svg" alt="general stats">
 </p>
 
 <p align="center">
