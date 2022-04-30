@@ -16,7 +16,7 @@ jobs:
           filename: general.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
-          config_order: base.header, isocalendar, lines, languages, notable, discussions, topics
+          config_order: base.header, isocalendar, languages, lines, notable, discussions, topics
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_lines: yes
