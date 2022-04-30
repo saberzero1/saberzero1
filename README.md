@@ -49,6 +49,14 @@ me.greet()
     <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/general.svg" alt="general stats">
 </p>
 
+<p>
+    <a href="https://emilebangma.com" target="_blank"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/pagespeed.svg" alt="portfolio"></a>
+</p>
+
+<p>
+    <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/achievement.svg" alt="achievements">
+</p>
+
 <p align="center">
   <a href="https://badges.pufler.dev"><img src="https://badges.pufler.dev/visits/saberzero1/saberzero1?style=for-the-badge"></a>
   <a href="https://badges.pufler.dev"><img src="https://badges.pufler.dev/years/saberzero1?style=for-the-badge"></a>
