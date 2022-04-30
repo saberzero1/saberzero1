@@ -54,7 +54,7 @@ me.greet()
 </p>
 
 <p>
-    <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/achievement.svg" alt="achievements">
+    <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/achievements.svg" alt="achievements">
 </p>
 
 <p align="center">
