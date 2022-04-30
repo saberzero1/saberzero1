@@ -16,8 +16,10 @@ jobs:
           filename: general.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
-          config_order: base.header, isocalendar, languages, notable, discussions, topics
+          config_order: base.header, isocalendar, lines, languages, notable, discussions, topics
           plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_lines: yes
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, scala, c, c++, ejs, jupyter notebook,
           plugin_languages_details: lines, bytes-size, percentage
@@ -29,28 +31,6 @@ jobs:
           plugin_topics_mode: icons
           plugin_notable: yes
           plugin_discussions: yes
-      - name: Full-year calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: fullyear.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-      - name: Indepth analysis
-        uses: lowlighter/metrics@latest
-        with:
-          filename: indepth.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
-            gnuplot, jupyter notebook,
-          plugin_languages_indepth: yes
-          plugin_languages_details: lines, bytes-size
-          plugin_languages_limit: 10
-          plugin_languages_analysis_timeout: 15
       - name: Screenshot
         uses: lowlighter/metrics@latest
         with:
@@ -71,13 +51,6 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           config_timezone: Europe/Amsterdam
-      - name: Lines of code changed
-        uses: lowlighter/metrics@latest
-        with:
-          filename: lines.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories
-          plugin_lines: yes
       - name: Detailed display
         uses: lowlighter/metrics@latest
         with:
