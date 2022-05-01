@@ -45,15 +45,15 @@ me.greet()
     <img src="https://github-profile-trophy.vercel.app/?username=saberzero1&theme=gruvbox&row=2&column=3"><br/>
 </p-->
 
-<p>
+<p align="center">
     <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/general.svg" alt="general stats">
 </p>
 
-<p>
+<p align="center">
     <a href="https://emilebangma.com" target="_blank"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/pagespeed.svg" alt="portfolio"></a>
 </p>
 
-<p>
+<p align="center">
     <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/achievements.svg" alt="achievements">
 </p>
 
