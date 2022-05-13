@@ -51,9 +51,9 @@ me.greet()
 
 <h2 align="center">My Portfolio</h2>
 
-<!--p align="center">
+<p align="center">
     <a href="https://emilebangma.com" target="_blank"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/pagespeed.svg" alt="portfolio"></a>
-</p-->
+</p>
 
 <h2 align="center">Achievements</h2>
 
