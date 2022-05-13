@@ -62,6 +62,10 @@ me.greet()
 </p>
 
 <p align="center">
+  <a href="https://spotify-github-profile.vercel.app/api/view?uid=r610hge3w142aqbi213wqbv8u&amp;redirect=true"><img src="https://spotify-github-profile.vercel.app/api/view?uid=r610hge3w142aqbi213wqbv8u&amp;cover_image=true&amp;theme=default&amp;bar_color=53b14f&amp;bar_color_cover=false" alt="spotify-github-profile"></a>
+</p>
+
+<p align="center">
   <a href="https://badges.pufler.dev"><img src="https://badges.pufler.dev/visits/saberzero1/saberzero1?style=for-the-badge"></a>
   <a href="https://badges.pufler.dev"><img src="https://badges.pufler.dev/years/saberzero1?style=for-the-badge"></a>
   <a href="https://badges.pufler.dev"><img src="https://badges.pufler.dev/repos/saberzero1?style=for-the-badge"></a>
