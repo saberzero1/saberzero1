@@ -121,7 +121,7 @@ me.greet()
   <a href="http://ForTheBadge.com"><img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg"></a>
 </p>
 
-<p align="center">
+<!--p align="center">
   In loving memory of Elisabeth, my love.<br>
   6-12-1999 ✝ 16-12-2020
-<p>
+<p-->
