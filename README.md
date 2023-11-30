@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Computer Science student at Utrecht University.
+  Data Engineer at ChipSoft.
 </p>
 
 <!--```python
