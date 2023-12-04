@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="http://ForTheBadge.com"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/images/aoc.svg"></a>
+</p>
+
 <h1 align="center">
   Hi there 👋 I'm Emile 👨‍💻
 </h1>
