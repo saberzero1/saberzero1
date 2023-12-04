@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://ForTheBadge.com"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/images/aoc.svg"></a>
+  <a href="https://saberzero1.github.io/advent-of-code/"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/images/aoc.svg"></a>
 </p>
 
 <h1 align="center">
