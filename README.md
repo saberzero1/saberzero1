@@ -66,8 +66,15 @@ me.greet()
 </p>
 
 <p align="center">
+    <!--<img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=kimbie_dark&title=Stars,Commit,Repositories,Followers,Issues,PullRequest" alt="trophies">-->
+    <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=saberzero1&theme=kimbie_dark&no-bg=true&no-frame=true&rank=-B,-C" alt="trophies" align="center"></a>
+</p>
+
+<!--
+<p align="center">
   <a href="https://spotify-github-profile.vercel.app/api/view?uid=r610hge3w142aqbi213wqbv8u&amp;redirect=true"><img src="https://spotify-github-profile.vercel.app/api/view?uid=r610hge3w142aqbi213wqbv8u&amp;cover_image=true&amp;theme=default&amp;bar_color=53b14f&amp;bar_color_cover=false" alt="spotify-github-profile"></a>
 </p>
+-->
 
 <p align="center">
   <a href="https://badges.pufler.dev"><img src="https://badges.pufler.dev/visits/saberzero1/saberzero1?style=for-the-badge"></a>
