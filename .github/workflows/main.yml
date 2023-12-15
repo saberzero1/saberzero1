@@ -21,7 +21,7 @@ jobs:
           plugin_isocalendar_duration: full-year
           plugin_lines: yes
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, scala, c, c++, ejs, scss, sass,
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, gnuplot, scala, ejs, scss, sass,
 #jupyter notebook,
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_sections: most-used, recently-used
