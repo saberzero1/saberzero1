@@ -2201,7 +2201,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 531kb of code in 454 edited files across 591 commits over last 2 days</small>
+                <small>estimation from 585kb of code in 592 edited files across 588 commits over last 2 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
