@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1046" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1026" class="">
     <defs>
         <style/>
     </defs>
@@ -2195,32 +2195,18 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 333kb of code in 646 edited files across 194 commits over last 14 days</small>
+                <small>estimation from 76.3kb of code in 382 edited files across 132 commits over last 13 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="282.2966086803725" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="282.2966086803725" y="0" width="121.22386223862237" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="403.5204709189949" y="0" width="42.524336671938144" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="446.044807590933" y="0" width="13.955192409066948" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="313.79804412099156" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="313.79804412099156" y="0" width="110.07778030475325" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="423.87582442574484" y="0" width="36.124175574255176" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#178600" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                C#
-                            </div>
-                            <small>
-                                <div>1.49k lines</div>
-                                <div>69.8 kB</div>
-                                <div>61.37%</div>
-                            </small>
-                        </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -2231,7 +2217,7 @@
                             <small>
                                 <div>784 lines</div>
                                 <div>30 kB</div>
-                                <div>26.35%</div>
+                                <div>68.22%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -2244,7 +2230,7 @@
                             <small>
                                 <div>448 lines</div>
                                 <div>10.5 kB</div>
-                                <div>9.24%</div>
+                                <div>23.93%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -2257,7 +2243,7 @@
                             <small>
                                 <div>106 lines</div>
                                 <div>3.45 kB</div>
-                                <div>3.03%</div>
+                                <div>7.85%</div>
                             </small>
                         </div>
                     </section>
