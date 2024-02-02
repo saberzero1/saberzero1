@@ -53,6 +53,12 @@ me.greet()
     <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/general.svg" alt="general stats">
 </p>
 
+<h2 align="center">LeetCode</h2>
+
+<p align="center">
+    <a href="https://leetcode.com/saberzero1/" target="_blank"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/leetcode.svg" alt="LeetCode" align="center"></a>
+</p>
+
 <h2 align="center">My Portfolio</h2>
 
 <p align="center">
