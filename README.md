@@ -53,11 +53,11 @@ me.greet()
     <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/general.svg" alt="general stats">
 </p>
 
-<!--h2 align="center">My Portfolio</h2>
+<h2 align="center">My Portfolio</h2>
 
 <p align="center">
     <a href="https://emilebangma.com" target="_blank"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/pagespeed.svg" alt="portfolio"></a>
-</p-->
+</p>
 
 <h2 align="center">Achievements</h2>
 
