@@ -55,8 +55,17 @@ jobs:
       - name: Detailed display
         uses: lowlighter/metrics@latest
         with:
-         filename: achievements.svg
-         token: ${{ secrets.METRICS_TOKEN }}
-         base: ""
-         plugin_achievements: yes
-         plugin_achievements_threshold: X
+          filename: achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_threshold: X
+      - name: LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: leetcode.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_user: "saberzero1"
+          plugin_leetcode_sections: solved, skills, recent
