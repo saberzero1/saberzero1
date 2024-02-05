@@ -39,7 +39,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
           config_order: base.header, isocalendar, languages, lines, notable, discussions, topics
-          plugin_isocalendar: yes
+          plugin_isocalendar: no
           plugin_isocalendar_duration: full-year
           plugin_lines: yes
           plugin_languages: yes
@@ -53,6 +53,10 @@ jobs:
           plugin_topics_mode: icons
           plugin_notable: yes
           plugin_discussions: yes
+          plugin_pagespeed: yes
+          plugin_pagespeed_screenshot: no
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_url: https://emilebangma.com
       - name: Screenshot
         uses: lowlighter/metrics@latest
         with:
