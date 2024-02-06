@@ -2196,15 +2196,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 1.07mb of code in 918 edited files across 524 commits over last 14 days</small>
+                <small>estimation from 1.07mb of code in 916 edited files across 522 commits over last 10 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="447.2517789831755" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="447.2517789831755" y="0" width="7.055842603659097" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="454.3076215868346" y="0" width="5.692378413165395" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="447.2863216429328" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="447.2863216429328" y="0" width="7.056387548546546" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="454.34270919147934" y="0" width="5.657290808520655" height="8" fill="#000080"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -2218,7 +2218,7 @@
                             <small>
                                 <div>7.58k lines</div>
                                 <div>264 kB</div>
-                                <div>97.23%</div>
+                                <div>97.24%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -2242,9 +2242,9 @@
                                 Lua
                             </div>
                             <small>
-                                <div>118 lines</div>
-                                <div>3.37 kB</div>
-                                <div>1.24%</div>
+                                <div>116 lines</div>
+                                <div>3.34 kB</div>
+                                <div>1.23%</div>
                             </small>
                         </div>
                     </section>
