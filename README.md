@@ -1,14 +1,17 @@
 <!--<p align="center">
   <a href="https://saberzero1.github.io/advent-of-code/"><img src="https://img.shields.io/badge/Advent_of_Code_2023-green?style=for-the-badge&logo=xrp&logoColor=white"></a>
 </p>-->
+<p align="center">
+  <a href="https://www.linkedin.com/in/emilebangma/"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/banner.png"></a>
+</p>
 
-<h1 align="center">
+<!--<h1 align="center">
   Hi there 👋 I'm Emile 👨‍💻
 </h1>
 
 <p align="center">
   Data Engineer at ChipSoft.
-</p>
+</p>-->
 
 <!--```python
 #!/usr/bin/python
