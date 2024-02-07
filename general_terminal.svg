@@ -49,7 +49,7 @@
 </div>
 <div class="stdin"><span class="ps1-path">saberzero1@metrics</span>:<span class="ps1-location">~</span>$ curl -I https://emilebangma.com</div><div class="stdout"><b>User-Agent</b>: Google PageSpeed API
 <b>Location</b>: https://emilebangma.com
-<b>X-Performance</b>: 94%
+<b>X-Performance</b>: 96%
 <b>X-Accessibility</b>: 93%
 <b>X-Best-Practices</b>: 100%
 <b>X-SEO</b>: 100%
