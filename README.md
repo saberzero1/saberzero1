@@ -12,5 +12,3 @@
   In loving memory of Elisabeth, my love.<br>
   6-12-1999 ✝ 16-12-2020
 <p>
-
-![](https://hit.yhype.me/github/profile?user_id=8161064)
