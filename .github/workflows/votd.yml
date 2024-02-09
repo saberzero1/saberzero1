@@ -1,4 +1,4 @@
-name: Metrics
+name: Verse of the Day
 on:
   # Schedule daily updates
   # schedule: [{cron: "15 0/3 * * *"}]
