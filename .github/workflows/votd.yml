@@ -29,7 +29,6 @@ jobs:
       - name: Download Image
         uses: suisei-cn/actions-download-file@v1
         id: downloadfile
-        name: Download the file
         with:
           url: ${{ env.VERSE_URL }}
           target: assets
