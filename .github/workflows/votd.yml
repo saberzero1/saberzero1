@@ -24,12 +24,12 @@ jobs:
       - name: Get Verse of the Day 
         id: get_verse
         run: |
-          verse=$(npm run verse)
-          echo "image_url=$verse" >> "$GITHUB_ENV"
+          verse=$(npm run serve)
+          echo "image_url=$verse" >> $GITHUB_OUTPUT
       - name: Download Image
         uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
         with:
-          url: "$image_url"
+          url: "${{ steps.get_verse.outputs.image_url }}"
           target: assets
           auto-match: true
           filename: "votd.jpg"
