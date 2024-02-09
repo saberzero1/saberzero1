@@ -44,7 +44,6 @@ jobs:
           auto-match: false
           filename: "votd.jpg"
       - name: Checkin
-        uses: actions/checkout@v4
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
