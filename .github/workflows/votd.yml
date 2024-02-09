@@ -12,6 +12,7 @@ env:
 
 jobs:
   votd:
+    name: Verse of the Day
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
