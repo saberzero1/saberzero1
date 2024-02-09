@@ -7,9 +7,6 @@ on:
   # (optional) Run workflow when pushing on master/main
   # push: {branches: ["master", "main"]}
 
-env:
-  VERSE_URL: ""
-
 jobs:
   votd:
     runs-on: ubuntu-latest
