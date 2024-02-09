@@ -1,11 +1,15 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/emilebangma/"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/banner.png"></a>
+  <a href="https://www.linkedin.com/in/emilebangma/">
+    <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/banner.png">
+  </a>
 </p>
 
 ## Today's Bible Verse
 
 <p align="center">
-  <a href="https://www.bible.com/verse-of-the-day" target="_blank"><img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/assets/votd.jpg"></a>
+  <a href="https://www.bible.com/verse-of-the-day" target="_blank">
+    <img src="https://raw.githubusercontent.com/saberzero1/saberzero1/main/assets/votd.jpg">
+  </a>
 </p>
 
 <p align="center">
