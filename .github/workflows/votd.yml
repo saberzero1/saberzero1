@@ -24,6 +24,7 @@ jobs:
       - name: Get Verse of the Day 
         id: get_verse
         run: |
+          echo ls
           verse=$(npm run verse)
           echo "image_url=$verse" >> $GITHUB_ENV
       - name: Download Image
