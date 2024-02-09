@@ -1,0 +1,37 @@
+name: Verse of the Day
+on:
+  # Schedule daily updates
+  # schedule: [{cron: "15 0/3 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  # push: {branches: ["master", "main"]}
+
+env:
+  VERSE_URL: ""
+
+jobs:
+  votd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14.x'
+      - name: Install dependencies
+        run: npm install @glowstudent/youversion
+      - name: Build dependencies
+        run: npm run build
+      - name: Get Verse of the Day 
+        run:  echo "VERSE_URL=" | npm run verse >> "$GITHUB_ENV"
+      - name: Download Image
+        uses: suisei-cn/actions-download-file@v1
+        id: downloadfile
+        name: Download the file
+        with:
+          url: ${{ env.VERSE_URL }}
+          target: assets
+          auto-match: true
+          file-name: "votd.jpg"
