@@ -27,7 +27,7 @@ jobs:
       - name: Trim URL to Amazon AWS link
         run: |
           url=$(cat link.txt)
-          aws_link=$(echo "$url" | sed -E 's/.*https?:\/\/([^/]+)\/.*/https:\/\/\1/')
+          aws_link=$(echo "$url" | sed -E 's/.*https?:\/\/([^/]+\/.*)/https:\/\/\1/')
           echo -n "$aws_link" > clean.txt
       - name: Read Link
         id: image_link
