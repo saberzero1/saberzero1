@@ -27,9 +27,9 @@ jobs:
           verse=$(npm run verse)
           echo "::set-output name=image_url::$verse"
       - name: Download Image
-        uses: suisei-cn/actions-download-file@v1
+        uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
         with:
           url: ${{ steps.get_verse.outputs.image_url }}
           target: assets
           auto-match: true
-          file-name: "votd.jpg"
+          filename: "votd.jpg"
