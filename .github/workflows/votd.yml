@@ -46,7 +46,6 @@ jobs:
           filename: "votd.jpg"
       - name: Checkin
         uses: actions/checkout@v4
-      - name: Generate coverage badge
         working-directory: ./assets
         run: |
           git config --local user.name "github-actions[bot]"
