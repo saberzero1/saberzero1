@@ -25,7 +25,7 @@ jobs:
         id: get_verse
         run: |
           verse=$(npm run verse)
-          echo "image_url={$verse}" >> "$GITHUB_ENV"
+          echo "image_url=$verse" >> "$GITHUB_ENV"
       - name: Download Image
         uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
         with:
