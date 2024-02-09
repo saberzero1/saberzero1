@@ -19,13 +19,15 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4
         with:
-          node-version: '14.x'
+          node-version: '20.x'
       - name: Install dependencies
         run: npm install
       - name: Build dependencies
         run: npm run build
       - name: Get Verse of the Day 
-        run: echo "VERSE_URL=$(npm run verse)" >> "$GITHUB_ENV"
+        run: |
+          RESULT=$(npm run verse)
+          echo "VERSE_URL=${RESULT}" >> "$GITHUB_ENV"
         id: image_url
       - name: Download Image
         uses: suisei-cn/actions-download-file@v1
