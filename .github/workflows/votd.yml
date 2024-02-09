@@ -23,8 +23,7 @@ jobs:
         run: npm run build
       - name: Get Verse of the Day 
         id: get_verse
-        run: |
-          verse=$(npm run verse | tail -n 2 | head -n 1) && echo "$verse" > link.txt
+        run: verse=$(npm run verse | tail -n 1) && echo "$verse" > link.txt
       - name: Read Link
         id: image_link
         uses: jaywcjlove/github-action-read-file@main
