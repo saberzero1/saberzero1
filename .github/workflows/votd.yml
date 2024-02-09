@@ -25,7 +25,7 @@ jobs:
       - name: Build dependencies
         run: npm run build
       - name: Get Verse of the Day 
-        run:  echo "VERSE_URL=" | npm run verse >> "$GITHUB_ENV"
+        run: $ echo "VERSE_URL=" | npm run verse >> "$GITHUB_ENV"
       - name: Download Image
         uses: suisei-cn/actions-download-file@v1
         id: downloadfile
