@@ -7,30 +7,51 @@ on:
   # (optional) Run workflow when pushing on master/main
   # push: {branches: ["master", "main"]}
 
-env:
-  VERSE_URL: ""
-
 jobs:
   votd:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup node
         uses: actions/setup-node@v4
         with:
-          node-version: '14.x'
+          node-version: '20.x'
       - name: Install dependencies
         run: npm install
       - name: Build dependencies
         run: npm run build
       - name: Get Verse of the Day 
-        run:  echo "VERSE_URL=" | npm run verse >> "$GITHUB_ENV"
-      - name: Download Image
-        uses: suisei-cn/actions-download-file@v1
-        id: downloadfile
+        id: get_verse
+        run: verse=$(npm run verse | tail -n 1) && echo -n "$verse" > link.txt
+      - name: Trim URL to Amazon AWS link
+        run: |
+          url=$(cat link.txt)
+          aws_link=$(echo "$url" | sed -E 's/.*https?:\/\/([^/]+\/.*)/https:\/\/\1/')
+          echo -n "$aws_link" > clean.txt
+      - name: Read Link
+        id: image_link
+        uses: jaywcjlove/github-action-read-file@main
         with:
-          url: ${{ env.VERSE_URL }}
-          target: assets
-          auto-match: true
-          file-name: "votd.jpg"
+          localfile: clean.txt
+      - name: Download Image
+        uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
+        with:
+          url: "${{ steps.image_link.outputs.content }}"
+          target: assets/
+          auto-match: false
+          filename: "votd.jpg"
+      - name: Checkin
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add ./assets/votd.jpg
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Updated Daily Verse"
+          git remote set-url origin https://saberzero1:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push origin main
