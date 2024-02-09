@@ -12,11 +12,12 @@ env:
 
 jobs:
   votd:
-    name: Verse of the Day
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup node
+        uses: actions/setup-node@v4
         with:
           node-version: '14.x'
       - name: Install dependencies
@@ -25,7 +26,8 @@ jobs:
         run: npm run build
       - name: Get Verse of the Day 
         run:  echo "VERSE_URL=" | npm run verse >> "$GITHUB_ENV"
-      - uses: suisei-cn/actions-download-file@v1
+      - name: Download Image
+        uses: suisei-cn/actions-download-file@v1
         id: downloadfile
         name: Download the file
         with:
