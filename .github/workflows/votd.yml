@@ -25,10 +25,15 @@ jobs:
         id: get_verse
         run: |
           verse=$(npm run verse) && echo "$verse" > link.txt
+      - name: Read Link
+        id: image_link
+        uses: jaywcjlove/github-action-read-file@main
+        with:
+          localfile: link.txt
       - name: Download Image
         uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
         with:
-          url: echo "cat link.txt"
+          url: "${{ steps.image_link.outputs.content }}"
           target: assets
           auto-match: true
           filename: "votd.jpg"
