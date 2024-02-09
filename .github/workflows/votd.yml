@@ -38,6 +38,6 @@ jobs:
         uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
         with:
           url: "${{ steps.image_link.outputs.content }}"
-          target: assets
-          auto-match: true
+          target: assets/
+          auto-match: false
           filename: "votd.jpg"
