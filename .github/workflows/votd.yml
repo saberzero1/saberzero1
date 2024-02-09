@@ -1,11 +1,11 @@
 name: Verse of the Day
 on:
   # Schedule daily updates
-  # schedule: [{cron: "15 0/3 * * *"}]
+  schedule: [{cron: "15 0/3 * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
-  # push: {branches: ["master", "main"]}
+  push: {branches: ["master", "main"]}
 
 jobs:
   votd:
@@ -25,24 +25,7 @@ jobs:
         run: npm run build
       - name: Get Verse of the Day 
         id: get_verse
-        run: verse=$(npm run verse | tail -n 1) && echo -n "$verse" > link.txt
-      - name: Trim URL to Amazon AWS link
-        run: |
-          url=$(cat link.txt)
-          aws_link=$(echo "$url" | sed -E 's/.*https?:\/\/([^/]+\/.*)/https:\/\/\1/')
-          echo -n "$aws_link" > clean.txt
-      - name: Read Link
-        id: image_link
-        uses: jaywcjlove/github-action-read-file@main
-        with:
-          localfile: clean.txt
-      - name: Download Image
-        uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
-        with:
-          url: "${{ steps.image_link.outputs.content }}"
-          target: assets/
-          auto-match: false
-          filename: "votd.jpg"
+        run: verse=$(npm run verse | tail -n 1) && curl "$verse" > ./assets/votd.jpg
       - name: Checkin
         run: |
           git config --local user.name "github-actions[bot]"
