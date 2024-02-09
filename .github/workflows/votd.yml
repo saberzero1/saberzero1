@@ -24,7 +24,7 @@ jobs:
       - name: Get Verse of the Day 
         run: |
           RESULT=$(npm run verse)
-          echo "VERSE_URL=${RESULT}" >> "$GITHUB_ENV"
+          echo "VERSE_URL=${RESULT}" >> "$GITHUB_OUTPUT"
         id: image_url
       - name: Download Image
         uses: suisei-cn/actions-download-file@v1
