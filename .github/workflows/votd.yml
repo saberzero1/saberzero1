@@ -23,7 +23,8 @@ jobs:
         run: npm run build
       - name: Get Verse of the Day 
         run: |
-          echo "VERSE_URL=$(npm run verse)" >> "$GITHUB_OUTPUT"
+          $RESULT=$((npm run verse)|| true)
+          echo "VERSE_URL=$RESULT" >> "$GITHUB_OUTPUT"
         id: image_url
       - name: Download Image
         uses: suisei-cn/actions-download-file@v1
