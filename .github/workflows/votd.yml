@@ -22,14 +22,14 @@ jobs:
       - name: Build dependencies
         run: npm run build
       - name: Get Verse of the Day 
+        id: get_verse
         run: |
-          echo "VERSE_URL=$((npm run verse)|| true)" >> "$GITHUB_OUTPUT"
-        id: image_url
+          verse=$(npm run serve)
+          echo "::set-output name=image_url::$verse"
       - name: Download Image
         uses: suisei-cn/actions-download-file@v1
-        id: downloadfile
         with:
-          url: ${{ steps.get_verse_of_the_day.output.VERSE_URL }}
+          url: ${{ steps.get_verse.outputs.image_url }}
           target: assets
           auto-match: true
           file-name: "votd.jpg"
