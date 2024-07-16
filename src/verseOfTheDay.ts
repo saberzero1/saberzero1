@@ -11,7 +11,7 @@ export async function getVerseOfTheDay() {
         const jsonContent = JSON.parse(scriptContents);
 
         // Extracting the URL of the image
-        const imageURL = jsonContent.image.url[0];
+        const imageURL = jsonContent.image.url;
 
         return {
             image: imageURL
