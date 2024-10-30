@@ -35,6 +35,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Updated Daily Verse"
+          git commit -m "$(date +%F) - Updated Daily Verse"
           git remote set-url origin https://saberzero1:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push origin main
